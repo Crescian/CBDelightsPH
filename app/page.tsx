@@ -564,7 +564,10 @@ export default function Home() {
 
       {/* NAV */}
       <nav>
-        <div className="nav-logo">CB <span>Delights.</span></div>
+        <div className="nav-logo" style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+          <img src="/OPTION C.png" alt="CB Delights logo" style={{ height: '2.2rem', width: 'auto', objectFit: 'contain' }} />
+          CB <span>Delights.</span>
+        </div>
         <ul className="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#menu">Menu</a></li>
