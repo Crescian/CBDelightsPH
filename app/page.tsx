@@ -787,7 +787,7 @@ export default function Home() {
       <footer>
         <div className="footer-logo">CB <span>Delights.</span></div>
         <div>Home-based · Pre-order · Freshly made every weekend</div>
-        <div>© 2025 CB Delights. All rights reserved.</div>
+        <div>© 2026 CB Delights. All rights reserved.</div>
       </footer>
     </>
   );
