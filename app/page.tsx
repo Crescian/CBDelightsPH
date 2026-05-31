@@ -599,16 +599,11 @@ export default function Home() {
               <span className="flavor-tag">Cookies &amp; Cream</span>
             </div>
           </div>
-          <div className="hero-side-cards">
+          <div className="hero-side-cards" style={{ gridTemplateColumns: '1fr' }}>
             <div className="mini-card">
               <div className="mini-card-icon">☕</div>
               <div className="mini-card-name">Coffee Jelly</div>
               <div className="mini-card-price">₱60 – ₱80 / cup</div>
-            </div>
-            <div className="mini-card">
-              <div className="mini-card-icon">🍩</div>
-              <div className="mini-card-name">Donut Bites</div>
-              <div className="mini-card-price">₱120 – ₱180 / box</div>
             </div>
           </div>
         </div>
@@ -623,7 +618,7 @@ export default function Home() {
           <p>Our pre-order model means zero waste, maximum freshness, and a personalized experience every time. No batch sitting on a shelf. Just your treat, made for you.</p>
           <div className="about-stats">
             <div className="stat">
-              <div className="stat-number">3</div>
+              <div className="stat-number">2</div>
               <div className="stat-label">Signature Products</div>
             </div>
             <div className="stat">
@@ -663,7 +658,7 @@ export default function Home() {
           <h2 className="section-title">Our <em>Menu</em></h2>
           <p className="section-sub">Simple, delicious, freshly made. All products are pre-order only and prepared with care every weekend.</p>
         </div>
-        <div className="products-grid">
+        <div className="products-grid" style={{ gridTemplateColumns: 'repeat(2, 1fr)', maxWidth: '800px', margin: '0 auto' }}>
           <div className="product-card">
             <div className="product-icon">🍪</div>
             <div className="product-name">Premium Cookies</div>
@@ -686,17 +681,6 @@ export default function Home() {
               <span className="product-tag">Coffee Flavor</span>
               <span className="product-tag">Creamy</span>
               <span className="product-tag">Sealed Cup</span>
-            </div>
-          </div>
-          <div className="product-card">
-            <div className="product-icon">🍩</div>
-            <div className="product-name">Mini Donut Bites</div>
-            <div className="product-price">₱120 – ₱180 per box</div>
-            <p className="product-desc">Soft, bite-sized donuts with assorted toppings. Perfect for sharing — or not. Snackable, satisfying, and oh-so-good.</p>
-            <div className="product-tags">
-              <span className="product-tag">Bite-Sized</span>
-              <span className="product-tag">Assorted Toppings</span>
-              <span className="product-tag">Share Box</span>
             </div>
           </div>
         </div>
