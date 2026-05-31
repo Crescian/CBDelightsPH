@@ -766,7 +766,7 @@ export default function Home() {
         <div className="section-label">Pre-Order Now</div>
         <h2 className="section-title">Ready for something <em>sweet?</em></h2>
         <p>Send us a message to place your order. Orders are open Monday to Wednesday — don&apos;t miss the Thursday cutoff!</p>
-        <a href="https://m.me/" className="btn-primary">Message Us to Order</a>
+        <a href="https://www.facebook.com/OfficialCBDelightsPH/" className="btn-primary">Message Us to Order</a>
         <div className="order-schedule">
           <div className="sched-item">
             <div className="sched-day">Mon – Wed</div>
